@@ -1,4 +1,8 @@
 # Telehack-Chrome
+
+![128](https://cloud.githubusercontent.com/assets/9145593/9670548/0a9231a2-525b-11e5-9c2c-2e8cbd9733fa.png)
+
+
 Native Telehack app for Chrome - May The Command Line Live Forever
 
 # About Telehack 
