@@ -1,28 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=0.6">
   <title>Telehack</title>
   <link type="text/css" rel="stylesheet" href="css/main.css" />
   <link type="text/css" rel="stylesheet" href="css/browser.css" />
   <script src="js/titlebar.js"></script>
   <script src="js/browser.js"></script>
+  <script src="js/jquery.js"></script>
 </head>
 <body style="overflow:hidden">
-
 <div class="titlebar">
-  <div class="buttons">
+  <div class="buttons" id="myContent">
     <button class="window" id="title-minimize">-</button>
 	<button id="title-close">X</button>
   </div>
   <h1>
-    Telehack - May The Command Line Live Forever
+		Telehack - May The Command Line Live Forever
   </h1>
 </div>
-
 <div class="scroll">
-    <webview src="http://www.telehack.com" style="width:820px; height:100%"></webview>
-
+    <webview src="http://www.telehack.com" style="width:798px; height:377px; border-left:1px solid #0f0; border-right:50px solid #0f0; border-bottom:1px solid #0f0"></webview>
 </div>
-
 </body>
 </html>
