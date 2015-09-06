@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Lucida Grande, Arial, sans-serif;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.overlay {
+  -webkit-box-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-pack: center;
+  -webkit-perspective: 1px;
+  -webkit-transition: 200ms opacity;
+  background-color: rgba(255, 255, 255, 0.75);
+  bottom: 0;
+  display: none;
+  left: 0;
+  overflow: hidden;
+  padding: 0px;
+  position: fixed;
+  right: -0px;
+  top: 0;
+}
