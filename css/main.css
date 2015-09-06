@@ -24,7 +24,7 @@ p {
 
 .scroll {
   position: absolute;
-  top: 2.0em;
+  top: 22px;
   left: 0px;
   right: 0px;
   bottom: 0px;
@@ -32,6 +32,7 @@ p {
   overflow-x: hidden;
   padding: 0px 0px;
   text-align: justify;
+  background-color: #000;
 }
 
 .titlebar {
@@ -40,12 +41,12 @@ p {
   left: 0;
   border-top: 1px solid #0f0;
   border-bottom: 1px solid #0f0;
+  border-left: 1px solid #0f0;
   width: 100%;
   font-family: Courier New, Courier, monospace;
-  height: 14px;
-  line-height: 14px;
+  height: 20px;
+  line-height: 20px;
   background: #000;
-  transition: all 0.25s;
   text-align: center;
   color: #0f0;
   overflow-y: hidden;
@@ -55,15 +56,14 @@ p {
 }
 
 .titlebar h1 {
-  font-size: 1.5em;
+  font-size: 18px;
 }
 
 .titlebar .buttons {
-  margin: 0 1px;
+  margin: 0 10px;
   display: block;
   float: right;
-  font-size: 1em;
-  transition: 0.25s all;
+  font-size: 14px;
   word-wrap: none;
   text-overflow: visible;
 
@@ -79,15 +79,16 @@ p {
   padding: 0px;
   margin: 0px;
   display: inline-block;
-  border: 0px;
-  min-width: 2em;
+  border-left: 1px solid #0f0;
+  border-right: 1px solid #0f0;
+  border-top: 1px solid #000;
+  min-width: 20px;
   text-align: center;
   background: transparent;
   cursor: pointer;
-  margin-right: 4px;
+  margin-right: -9px;
   position: inline;
   background: rgba(0, 0, 0, 0.1);
-  transition: all 0.25s;
 }
 
 .titlebar .buttons button:focus {
